@@ -1,4 +1,4 @@
-import { cloneElement, useContext, useEffect, useRef } from "react";
+import { cloneElement, useContext } from "react";
 import { createContext, useState } from "react";
 import { createPortal } from "react-dom";
 import { HiXMark } from "react-icons/hi2";
@@ -88,6 +88,7 @@ function Window({ children, name }) {
         <Button onClick={close}>
           <HiXMark />
         </Button>
+
         <div>{cloneElement(children, { onCloseModal: close })}</div>
       </StyledModal>
     </Overlay>,
