@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { useQuery } from "@tanstack/react-query";
 import { getBookings } from "../../services/apiBookings";
 import { useSearchParams } from "react-router-dom";
@@ -19,13 +20,16 @@ export function useBookings() {
   const sortBy = { field, direction };
   // const modifier = direction === "asc" ? 1 : -1;
 
+  //PAGINATION
+  const page = !searchParams.get("page") ? 1 : Number(searchParams.get("page"));
+
   const {
     isLoading,
-    data: bookings,
+    data: { data: bookings, count } = {},
     error,
   } = useQuery({
-    queryKey: ["bookings", filter, sortBy],
-    queryFn: () => getBookings({ filter, sortBy }),
+    queryKey: ["bookings", filter, sortBy, page],
+    queryFn: () => getBookings({ filter, sortBy, page }),
   });
-  return { bookings, isLoading, error };
+  return { bookings, isLoading, error, count };
 }
