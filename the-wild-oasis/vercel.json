@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "settings": {
+    "rootDirectory": "the-wild-oasis"
+  }
 }
