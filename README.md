@@ -1,10 +1,9 @@
 🏝️ Oasis
 
 Oasis ist eine moderne Web-Applikation für Hotel- und Buchungsmanagement, entwickelt mit einem aktuellen Fullstack-Ansatz.  
+📚 Das Projekt entstand im Rahmen des Kurses "Ultimate React Course" bei [Jonas Schmedtmann](https://github.com/jonasschmedtmann)
 
 🚀 Live-Demo  
-
-📚 Das Projekt entstand im Rahmen des Kurses "Ultimate React Course" bei [Jonas Schmedtmann](https://github.com/jonasschmedtmann)
 
     🌍 [Deployment auf Netlify](the-wild-oasis123.netlify.app/)
 
