@@ -1,7 +1,9 @@
 🏝️ Oasis
 
-Oasis ist eine moderne Web-Applikation für Hotel- und Buchungsmanagement, entwickelt mit einem aktuellen Fullstack-Ansatz.
-🚀 Live-Demo
+Oasis ist eine moderne Web-Applikation für Hotel- und Buchungsmanagement, entwickelt mit einem aktuellen Fullstack-Ansatz.  
+
+🚀 Live-Demo  
+
 📚 Das Projekt entstand im Rahmen des Kurses "Ultimate React Course" bei [Jonas Schmedtmann](https://github.com/jonasschmedtmann)
 
     🌍 [Deployment auf Netlify](the-wild-oasis123.netlify.app/)
@@ -44,7 +46,7 @@ Oasis ist eine moderne Web-Applikation für Hotel- und Buchungsmanagement, entwi
 
 📦 Lokale Installation
 
-git clone [Oasis](https://github.com/JanaTSCH/Oasis.git)
+git clone [Oasis](https://github.com/JanaTSCH/Oasis.git](https://github.com/JanaTSCH/Oasis/tree/main/the-wild-oasis))
 cd Oasis
 npm install
 npm run dev
