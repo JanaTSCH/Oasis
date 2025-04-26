@@ -5,9 +5,9 @@ Oasis ist eine moderne Web-Applikation für Hotel- und Buchungsmanagement, entwi
 
 🚀 Live-Demo  
 
-    🌍 [Deployment auf Netlify](the-wild-oasis123.netlify.app/)
+🌍 [Deployment auf Netlify]([the-wild-oasis123.netlify.app/](https://the-wild-oasis123.netlify.app/))
 
-    🌍 [Deployment auf Vercel](https://oasis-app-tawny.vercel.app/)
+🌍 [Deployment auf Vercel]([oasis-app-tawny.vercel.app/](https://oasis-app-tawny.vercel.app/))
 
 🛠️ Technologie-Stack
 
@@ -45,7 +45,7 @@ Oasis ist eine moderne Web-Applikation für Hotel- und Buchungsmanagement, entwi
 
 📦 Lokale Installation
 
-git clone [Oasis](https://github.com/JanaTSCH/Oasis.git](https://github.com/JanaTSCH/Oasis/tree/main/the-wild-oasis))
+git clone [Oasis]([github.com/JanaTSCH/Oasis/tree/main/the-wild-oasis](https://github.com/JanaTSCH/Oasis/tree/main/the-wild-oasis))
 cd Oasis
 npm install
 npm run dev
