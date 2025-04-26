@@ -45,9 +45,9 @@ Oasis ist eine moderne Web-Applikation für Hotel- und Buchungsmanagement, entwi
 
 📦 Lokale Installation
 
-git clone [Oasis](https://github.com/JanaTSCH/Oasis/tree/main/the-wild-oasis)
-cd Oasis
-npm install
+git clone [Oasis](https://github.com/JanaTSCH/Oasis/tree/main/the-wild-oasis)  
+cd Oasis  
+npm install  
 npm run dev
 
 🔐 Zugangsdaten
